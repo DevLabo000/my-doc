@@ -1,33 +1,41 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Docusaurus でドキュメントサイトの構築
 
-### Installation
+## インストール
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```sh
+npx @docusaurus/init@latest init my-doc classic
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+以下のメッセージは OK を押下する。
 
-### Build
-
-```
-$ yarn build
+```sh
+Ok to proceed? (y)
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+ディレクトリを移動する。
 
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```sh
+yarn start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## GitHub リポジトリに push
+
+ローカルの Docusaurus を作成したリポジトリに push する。
+
+```sh
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/[ユーザ名]/documents.git
+git push -u origin main
+```
+
+## 参考サイト
+
+test[^1]
+
+[^1]: https://qiita.com/y_catch/items/46b7eb7d618d95fbc9c3
+[^2]: https://zenn.dev/koushikagawa/scraps/6f38fbc8a2b3ee
