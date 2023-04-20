@@ -11,7 +11,8 @@
     }
   },
   "markdownlint.config": {
-    "MD040": false
+    "MD040": false,
+    "MD024": false
   },
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.orderedList.marker": "one",
