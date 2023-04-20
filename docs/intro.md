@@ -1,37 +1,31 @@
-slug: /
+# README
 
----
+## このサイトについて
 
-## sidebar_position: 1
+### 構成
 
-# Tutorial Intro
+### 使用技術
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- [Docusaurus](https://docusaurus.io/)
 
-## Getting Started
+### node
 
-Get started by **creating a new site**.
+- node v16.14.2
+- yarn v1.22.18
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### ホスティング
 
-## Generate a new site
+- Vercel
 
-Generate a new Docusaurus site using the **classic template**:
+## ドキュメンテーション
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+### エディタ
 
-## Start your site
+- vscode
 
-Run the development server:
+### 拡張機能
 
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+- [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)

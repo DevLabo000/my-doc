@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-preview-github-styles",
+    "oderwat.indent-rainbow",
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    "davidanson.vscode-markdownlint"
+  ]
+}
