@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "PJ Document",
+  title: "D.C.Lab",
   tagline: "Dinosaurs are cool",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -46,7 +46,7 @@ module.exports = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "研修",
+            label: "Documents",
           },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -57,7 +57,7 @@ module.exports = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © 2023 - ${new Date().getFullYear()} Matisse Documents`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} D.C.Lab`,
       },
       prism: {
         theme: lightCodeTheme,

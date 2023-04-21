@@ -12,6 +12,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
+        <p>日々学んだことのを体型的なアウトプットとして記録していくつもり。</p>
       </div>
     </header>
   );
