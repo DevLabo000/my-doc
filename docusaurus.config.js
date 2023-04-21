@@ -48,11 +48,6 @@ module.exports = {
             position: "left",
             label: "Documents",
           },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
