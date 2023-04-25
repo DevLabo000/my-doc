@@ -46,7 +46,7 @@ module.exports = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Documents",
+            label: "技術研修ドキュメント",
           },
         ],
       },
