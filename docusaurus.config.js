@@ -24,6 +24,8 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          showLastUpdateTime: true, // この行を追加
+          showLastUpdateAuthor: true, // お好みでこちらも
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -31,12 +33,11 @@ module.exports = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "",
+        title: "ホーム",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",

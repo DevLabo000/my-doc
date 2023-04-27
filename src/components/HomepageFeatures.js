@@ -1,12 +1,14 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
     title: "研修",
     Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: <p>必要な知識や技術を学ぶための研修資料</p>,
+    link: "/intro",
   },
   {
     title: "ドキュメンテーション",
@@ -24,16 +26,18 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
+      <Link to={link}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} alt={title} />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </Link>
     </div>
   );
 }
