@@ -36,6 +36,7 @@ git push -u origin main
 ## 参考サイト
 
 test[^1]
+test[^2]
 
 [^1]: https://qiita.com/y_catch/items/46b7eb7d618d95fbc9c3
 [^2]: https://zenn.dev/koushikagawa/scraps/6f38fbc8a2b3ee
