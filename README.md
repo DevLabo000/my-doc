@@ -35,8 +35,10 @@ git push -u origin main
 
 ## 参考サイト
 
-test[^1]
-test[^2]
+React 製の静的サイトジェネレータ Docusaurus v2 を、GitHub Pages にデプロイする[^1]
+Docusaurus の構築フロー[^2]
+Markdown 設定[^3]
 
 [^1]: https://qiita.com/y_catch/items/46b7eb7d618d95fbc9c3
 [^2]: https://zenn.dev/koushikagawa/scraps/6f38fbc8a2b3ee
+[^3]: https://qiita.com/waicode/items/33311d0a511dc821f53f

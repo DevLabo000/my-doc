@@ -23,7 +23,7 @@ module.exports = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/DevLabo000/my-doc/edit/fix/",
           showLastUpdateTime: true, // この行を追加
           showLastUpdateAuthor: true, // お好みでこちらも
         },
