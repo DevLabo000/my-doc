@@ -5,6 +5,7 @@
     "oderwat.indent-rainbow",
     "mhutchie.git-graph",
     "esbenp.prettier-vscode",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "sakamoto66.vscode-paste-image"
   ]
 }

@@ -14,6 +14,8 @@
     "MD040": false,
     "MD024": false
   },
+  "pasteImage.defaultName": "YYYYMMDD-HHmmss",
+  "pasteImage.path": "./image",
   "markdown.extension.orderedList.autoRenumber": false,
   "markdown.extension.orderedList.marker": "one",
   "markdown.extension.preview.autoShowPreviewToSide": false,
